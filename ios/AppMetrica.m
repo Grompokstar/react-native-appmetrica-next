@@ -8,9 +8,9 @@
 
 #import <React/RCTConvert.h>
 #import "AppMetrica.h"
-#import <Firebase/Firebase.h>
+//#import <Firebase/Firebase.h>
 #import "AppMetricaUtils.h"
-#import <YandexMobileMetricaPush/YMPYandexMetricaPush.h>
+//#import <YandexMobileMetricaPush/YMPYandexMetricaPush.h>
 
 
 static NSString *const kYMMReactNativeExceptionName = @"ReactNativeException";
@@ -59,7 +59,7 @@ RCT_EXPORT_METHOD(reportUserProfile:(NSDictionary *)configDict)
 
 
 
-RCT_EXPORT_METHOD(initPush:(NSData *)deviceToken)
+/* RCT_EXPORT_METHOD(initPush:(NSData *)deviceToken)
 {
 
     #ifdef DEBUG
@@ -69,7 +69,7 @@ RCT_EXPORT_METHOD(initPush:(NSData *)deviceToken)
     #endif
    [YMPYandexMetricaPush setDeviceTokenFromData:[FIRMessaging messaging].APNSToken pushEnvironment:pushEnvironment];
     
-}
+} */
 
 RCT_EXPORT_METHOD(getLibraryApiLevel)
 {

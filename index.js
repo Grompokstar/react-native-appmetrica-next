@@ -62,13 +62,13 @@ export default {
     AppMetrica.activate(config);
   },
 
-  initPush(token = ''){
+  /*initPush(token = ''){
     if(Platform.OS === 'android') {
       AppMetrica.initPush();
     } else {
       AppMetrica.initPush(token);
     }
-  },
+  },*/
 
   getToken(){
     return AppMetrica.getToken();
