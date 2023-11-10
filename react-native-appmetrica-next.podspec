@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency "React-Core"
-  s.dependency 'YandexMobileMetrica', '4.2.0'
+  s.dependency 'YandexMobileMetrica', '5.0.0'
   #s.dependency 'YandexMobileMetricaPush', '1.3.0'
 end
